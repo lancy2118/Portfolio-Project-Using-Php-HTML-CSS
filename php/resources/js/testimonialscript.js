@@ -1,0 +1,88 @@
+   
+   $(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:1,
+        itemsDesktop:[1000,1],
+        itemsDesktopSmall:[979,1],
+        itemsTablet:[768,1],
+        pagination:true,
+        navigation:false,
+        navigationText:["",""],
+        slideSpeed:10000,
+        singleItem:true,
+        autoPlay:true
+    });
+    $('.js--nav-icon').click(function(){
+        var nav = $('.js--main-nav');
+        var icon = $('.js--nav-icon i');
+        
+        nav.slideToggle(200);
+        
+       if (icon.hasClass("fa-times")) {
+            icon.addClass('fa-bars');
+            icon.removeClass('fa-times');
+        } else {
+            
+            icon.addClass("fa-times");
+            icon.removeClass("fa-bars");
+        }              
+    });
+});
+var modal = document.getElementById("myModal");
+var modal2=  document.getElementById("myModal2");
+var modal3=  document.getElementById("myModal3");
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+        var btn2=document.getElementById("myBtn2");
+        var btn3=document.getElementById("myBtn3");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close3")[0];
+        var span2 = document.getElementsByClassName("close2")[0];
+        var span3 = document.getElementsByClassName("close4")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        // window.onclick = function(event) {
+        //   if (event.target == modal) {
+        //     modal.style.display = "none";
+        //   }
+        // }
+        btn2.onclick = function() {
+          modal2.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span2.onclick = function() {
+          modal2.style.display = "none";
+        }
+btn3.onclick = function() {
+          modal3.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span3.onclick = function() {
+          modal3.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal2) {
+            modal2.style.display = "none";
+          }
+           if (event.target == modal) {
+            modal.style.display = "none";
+          }
+          if (event.target == modal3) {
+            modal3.style.display = "none";
+          }
+        }

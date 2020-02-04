@@ -1,0 +1,445 @@
+ @media only screen and (max-width: 1400px) {
+    .hireme{
+        font-size:20px;
+    }
+    .prices-h2{
+        margin-top: 6%;
+    }
+    
+}
+ 
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1300px) {
+    .author-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .about-content{
+    margin-top: 20%;
+    font-size: 12px;
+    line-height: 1.2;
+    }
+    h2{
+        margin-top: 15%;
+        font-size: 110%;
+    }
+    .prices-h2{
+        margin-top: 12%;
+    }
+    .hireme{
+        height: 3.5em;
+        top:700px;
+    }
+    .author-name{
+        margin-top:0%;
+    }
+    .copyright-content{
+        margin-top:0%;
+    }
+    .boxs{
+        font-size: 12px;
+        line-height: 1;
+    }
+    .footer-pages{
+        font-size: 20px;
+    }
+    .signup-iframe{
+    width:40vh;
+    height:80vh;
+}
+#progress{
+    width:unset;
+
+}
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1024px) {
+    body { font-size: 12px; 
+        }
+
+    h2{
+        margin-top: 17%;
+        font-size: 110%;
+    }
+    .footer-row{
+        margin-top: -4%;
+    }
+    .hireme{
+        top:600px;
+    }
+    .prices-h2{
+        margin-top: 17% !important;
+    }
+    .service{
+        font-size: larger;
+    }
+    .rate{
+        font-size:large;
+    }
+    .fa-shopping-cart{
+        font-size: 100px !important;
+    }
+    .price{
+        font-size: 10px;
+    }
+    .skills-h2{
+        margin-top: 17%;
+        font-size: 105%;
+    }
+    .skills{
+        width:85% !important;
+        margin-left: 7% !important;
+    }
+    .box-skills{
+        width: auto;
+     margin-top: 2% !important;
+    margin-bottom: 0.5% !important;
+    }
+    .footer-pages{
+        font-size: 20px;
+    }
+    .boxs{
+  
+        font-size: 12px;
+        line-height: 1;
+    }
+    
+
+    .about-content{
+    margin-top: 25%;
+    font-size: 12px;
+    line-height: 1;
+    width:90% !important;
+    }
+
+.contact-iframe{
+    width:40vh;
+    height:80vh;
+}
+.modal{
+    padding-top: 0px !important
+}
+.modal2{
+    padding-top: 0px !important
+}
+.modal3{
+    padding-top: 0px !important
+}
+.modal-content{
+    margin: 10% !important;
+}
+.login-iframe{
+    width:40vh !important;
+    margin:0px;
+}
+.signup-iframe{
+    width:40vh;
+    height:80vh;
+}
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .e,.f{
+            grid-column: unset;
+        grid-row: auto;
+    }
+    .right-side{
+        margin-right:0;
+    }
+    .right-side-left{
+        margin-right: 0;
+    }
+    #progress{
+        width:auto;
+        margin-top: 3% !important;
+        margin-bottom:0.5% !important;
+    }
+    
+    .steps-box { margin-top: 10px; }
+    .steps-box:last-child { margin-top: 10px; }
+    .works-steps { margin-bottom: 40px; }
+    .works-step:last-of-type { margin-bottom: 60px; }
+    
+    .app-screen { width: 50%; }
+    
+    .icon-small { 
+        width: 17px;
+        margin-right: 5px;
+    }
+    
+    .city-feature { font-size: 90%; }
+    
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .plan-price { font-size: 250%; }
+    .contact-form { width: 80%; }
+}
+ @media only screen and (max-width: 1200px) {
+    .hireme{
+        height:auto;
+        font-size: 20px;
+    }
+    .prices-h2{
+        margin-top: 14%;
+    }
+}
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body { 
+        font-size: 12px;
+        /*margin-top: 18%*/
+         }
+         .main-nav-home{
+     display: flow-root;
+    background-color:#378C3F ;
+    z-index: 100;
+    position: sticky;
+}
+        .skills-h2{
+        margin-top: 15%;
+        font-size: 110%;
+    }
+    .fa-shopping-cart{
+        font-size: 50px !important;
+    }
+
+    .about-content{
+    margin-top: 20%;
+    font-size: 10px;
+    line-height: 1;
+    
+    }
+    .skills{
+        width:85% !important;
+        margin-left: 7% !important;
+    }
+    .box-skills{
+        padding: 10px !important;
+        margin: 10px !important;
+    }
+
+    .footer-pages{
+        font-size:15px;
+    }
+    .login-iframe{
+        /*width:fit-content !important;*/
+        margin:0px;
+    }
+    .modal{
+    padding-top: 0px !important
+}
+    .signup-iframe{
+        /*width:fit-content;*/
+        height:80vh;
+        margin-left:0;
+    }
+    .modal2{
+         padding-top:0px !important;
+    }
+    .modal3{
+        padding-top:0px !important;
+    }
+    .modal-content{
+        margin:5%;
+        width:30%;
+        height:60vh;
+    }
+    .contact-iframe{
+        /*width: fit-content;*/
+        height:80vh;
+    }
+    .contact-info{
+        margin:10px;
+    }
+    .right{
+        margin-top: 5%;
+        padding-left: 0;
+    }
+    .row,
+    .author-box { padding: 0 4%; 
+        z-index:20;}
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    .boxs{
+        font-size: 10px;
+        line-height: 1;
+    }
+    .e,.f{
+            grid-column: unset;
+        grid-row: auto;
+    }
+    .right-side-left{
+        margin-right: 0;
+    }
+    #progress{
+        width:auto;
+        margin-top: 4% !important;
+        margin-bottom: 1% !important;
+    }
+     .right-side{
+        margin-right:0;
+    }
+    
+    /*.main-nav { display: none; }*/
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav,.main-nav-sticky {
+        float: left;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li ,.main-nav-sticky li{
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited,.main-nav-sticky li a:visited,
+    .main-nav-sticky li a:link {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .main-nav-sticky { margin-top: 10px; }
+
+    .main-nav-sticky li a:link,
+    .main-nav-sticky li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #FFFFFF; }
+    
+    
+    
+    h1 { font-size: 180%; }
+    h2 { font-size: 110%;
+    margin-top:15%; 
+    }
+    
+    .footer-pages{
+        font-size: 20px;
+    }
+    
+}
+ @media only screen and (max-width: 600px) {
+    .hireme{
+        height:auto;
+        font-size: 20px;
+        top: 700px;
+        margin-top: 650px;
+    }
+    .prices-h2{
+        margin-top: 14%;
+    }
+    .footer-row{
+        margin-top: -7%;
+    }
+}
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .contact-form {width: 100%; }
+    .boxs{
+        font-size: 10px;
+        line-height: 1;
+    }
+    .skills-h2{
+        margin-top: 30%;
+        font-size: 105%;
+    }
+    .hireme{
+        top: 630px;
+        margin-top: 650px;
+    }
+    .prices-h2{
+        margin-top: 23% !important;
+    }
+    .footer-pages{
+        font-size: 20px;
+    }
+    .about-content{
+        margin-top: 30%;
+    }
+    #progress {
+    margin-top: 7% !important;
+    margin-bottom: 2% !important;
+}
+.button-place{
+    padding-top:30%;
+    padding-left:20%;
+}
+.btn-full-port{
+    padding: 0 15px;
+}
+.contact-iframe{
+    width:30vh !important;
+}
+.login-iframe{
+    width:30vh !important;
+}
+.signup-iframe{
+    width: 30vh !important;
+}
+}
+@media only screen and (max-width: 450px) {
+    .boxs{
+        padding: 4px;
+        font-size: 10px;
+        line-height: 1;
+        margin-bottom: 10px;
+    }
+    h2{
+        margin-top: 40%;
+    }
+    .skills-h2 {
+    margin-top: 40%;
+    font-size: 105%;
+}
+.modal-content{
+    margin: 5% !important;
+}
+}
+@media only screen and (max-width: 1400px) {
+ .login-iframe{
+    width:50vh;
+    margin:0px;
+}
+.skills{
+        /*width: fit-content;*/
+        /*margin-left: 1%*/
+    }
+    .box-skills{
+        padding: 0px;
+        margin: 5px;
+    }
+}
+@media only screen and (max-width: 330px) {
+    .about-content{
+        word-break: break-all;
+        margin-top: 40%;
+    }
+    .button-place{
+        padding-left: 10px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .hireme{
+        top: 700px;
+        margin-top: 650px;
+    }
+    .prices-h2{
+        margin-top: 32% !important;
+    }
+}

@@ -1,0 +1,84 @@
+.pricecont{
+  width:80%;
+  margin-left: auto;
+}
+.fa-shopping-cart{
+  font-size:125px !important;
+  font-style:normal !important;
+  color: #FFFFFF !important;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 15px;
+}
+
+.price {
+  list-style-type: none;
+  /*border-top: 5px solid #eee;
+  border-bottom:5px solid #eee;*/
+  border-collapse:collapse;
+  margin: 0;
+  padding:0px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  box-shadow: 0px 5px 5px  #777;
+  font-family:'Montserrat';
+  color:#2C2C2C;
+  font-size:14px;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+.green{
+  background-color: #378C3F;
+}
+.blue{
+  background-color: #0033FF;
+}
+.purple{
+  background-color: #6633CC;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+  text-align: left;
+}
+
+.price .cost {
+    line-height: 1.5;
+    padding-bottom: 10%;
+    text-align: center;
+    padding-top: 10%;
+}
+.rate{
+  font-weight: bolder;
+  font-size: x-large;
+}
+.service{
+  font-weight: lighter;
+  font-size:medium;
+}
+.contact-link{
+  text-decoration: none;
+  color:#66FF99;
+  font-family: 'Montserrat';
+}
+.price .contact-fill{
+  background-color: #F0F0F0;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
