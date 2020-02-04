@@ -4,7 +4,7 @@
 It is a personal portfolio project with admin and User(HR) panel.HR can view the profile of the person and admin owner of the portfolio
 can make changes to the information displayed by making changes in DB(dynamic)
 
-##Languages Used
+## Languages Used
 HTML, CSS, JQuery, JavaScript, PHP,Mysql
 
  ## Demo Link
